@@ -1,0 +1,28 @@
+2021-07-14 21:43:36 INFO     Model: DMMCS
+2021-07-14 21:43:36 INFO     Data Path: F:\tian\DMMCS\data\YAGO3-10
+2021-07-14 21:43:36 INFO     Num Entity: 123182
+2021-07-14 21:43:36 INFO     Num Relation: 37
+2021-07-14 21:43:36 INFO     Num Train: 1079040
+2021-07-14 21:43:36 INFO     Num Valid: 5000
+2021-07-14 21:43:36 INFO     Num Test: 5000
+2021-07-14 21:43:37 INFO     Model Parameter Configuration:
+2021-07-14 21:43:37 INFO     Parameter gamma: torch.Size([1]), require_grad = False
+2021-07-14 21:43:37 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
+2021-07-14 21:43:37 INFO     Parameter entity_embedding: torch.Size([123182, 1200]), require_grad = True
+2021-07-14 21:43:37 INFO     Parameter relation_embedding: torch.Size([37, 800]), require_grad = True
+2021-07-14 21:43:55 INFO     Loading checkpoint F:\tian\DMMCS\save\yago3-10\yago-2_decay_1...
+2021-07-14 21:44:06 INFO     Start Training...
+2021-07-14 21:44:06 INFO     init_step = 179999
+2021-07-14 21:44:06 INFO     batch_size = 512
+2021-07-14 21:44:06 INFO     hidden_dim = 400
+2021-07-14 21:44:06 INFO     gamma = 18.000000
+2021-07-14 21:44:06 INFO     adversarial_temperature = 1.000000
+2021-07-14 21:44:06 INFO     Evaluating on Test Dataset...
+2021-07-14 21:44:11 INFO     Evaluating the model... (0/2500)
+2021-07-14 21:44:52 INFO     Evaluating the model... (1000/2500)
+2021-07-14 21:45:38 INFO     Evaluating the model... (2000/2500)
+2021-07-14 21:45:59 INFO     Test MRR at step 179999: 0.542491
+2021-07-14 21:45:59 INFO     Test MR at step 179999: 1497.612600
+2021-07-14 21:45:59 INFO     Test HITS@1 at step 179999: 0.456000
+2021-07-14 21:45:59 INFO     Test HITS@3 at step 179999: 0.595600
+2021-07-14 21:45:59 INFO     Test HITS@10 at step 179999: 0.698700
