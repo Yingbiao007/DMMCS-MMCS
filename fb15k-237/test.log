@@ -1,0 +1,36 @@
+2021-05-22 09:13:35 INFO     Model: DMMCS
+2021-05-22 09:13:35 INFO     Data Path: F:\tian\DMMCS\data\FB15k-237
+2021-05-22 09:13:35 INFO     Num Entity: 14541
+2021-05-22 09:13:35 INFO     Num Relation: 237
+2021-05-22 09:13:35 INFO     Num Train: 272115
+2021-05-22 09:13:35 INFO     Num Valid: 17535
+2021-05-22 09:13:35 INFO     Num Test: 20466
+2021-05-22 09:13:35 INFO     Model Parameter Configuration:
+2021-05-22 09:13:35 INFO     Parameter gamma: torch.Size([1]), require_grad = False
+2021-05-22 09:13:35 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
+2021-05-22 09:13:35 INFO     Parameter entity_embedding: torch.Size([14541, 3000]), require_grad = True
+2021-05-22 09:13:35 INFO     Parameter relation_embedding: torch.Size([237, 2000]), require_grad = True
+2021-05-22 09:13:36 INFO     Loading checkpoint F:\tian\DMMCS\save\FB15k-237\1_decay_2...
+2021-05-22 09:13:37 INFO     Start Training...
+2021-05-22 09:13:37 INFO     init_step = 49999
+2021-05-22 09:13:37 INFO     batch_size = 1024
+2021-05-22 09:13:37 INFO     hidden_dim = 1000
+2021-05-22 09:13:37 INFO     gamma = 5.000000
+2021-05-22 09:13:37 INFO     adversarial_temperature = 3.000000
+2021-05-22 09:13:37 INFO     Evaluating on Test Dataset...
+2021-05-22 09:13:39 INFO     Evaluating the model... (0/10234)
+2021-05-22 09:13:52 INFO     Evaluating the model... (1000/10234)
+2021-05-22 09:14:04 INFO     Evaluating the model... (2000/10234)
+2021-05-22 09:14:17 INFO     Evaluating the model... (3000/10234)
+2021-05-22 09:14:29 INFO     Evaluating the model... (4000/10234)
+2021-05-22 09:14:42 INFO     Evaluating the model... (5000/10234)
+2021-05-22 09:14:57 INFO     Evaluating the model... (6000/10234)
+2021-05-22 09:15:09 INFO     Evaluating the model... (7000/10234)
+2021-05-22 09:15:22 INFO     Evaluating the model... (8000/10234)
+2021-05-22 09:15:34 INFO     Evaluating the model... (9000/10234)
+2021-05-22 09:15:47 INFO     Evaluating the model... (10000/10234)
+2021-05-22 09:15:50 INFO     Test MRR at step 49999: 0.338394
+2021-05-22 09:15:50 INFO     Test MR at step 49999: 175.104539
+2021-05-22 09:15:50 INFO     Test HITS@1 at step 49999: 0.242402
+2021-05-22 09:15:50 INFO     Test HITS@3 at step 49999: 0.374817
+2021-05-22 09:15:50 INFO     Test HITS@10 at step 49999: 0.533397
